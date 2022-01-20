@@ -159,7 +159,7 @@ defmodule ReportsGeneratorTest do
       assert response == expected_response
     end
 
-    test "when a list is not provided, gives an error" do
+    test "when a list is not provided, returns an error" do
       # Setup
       filenames = "banana"
 
